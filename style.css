@@ -1,5 +1,9 @@
-.wow {
-  width: 100px;
+*{
+  font-family: 'Bebas Neue', cursive;
+}
+
+header, section{
+  text-align:center
 }
 
 .img{
