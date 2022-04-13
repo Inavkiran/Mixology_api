@@ -26,7 +26,10 @@
 ///////////////////////////////////////////////
 
 //focusing on a random cocktail
+
 document.querySelector('#randomBtn').addEventListener('click', randomDrink)
+
+document.querySelector('#searchBtn').addEventListener('click',searchDrink)
 
 function randomDrink(){
   fetch("https://www.thecocktaildb.com/api/json/v1/1/random.php")
