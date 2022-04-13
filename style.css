@@ -9,8 +9,24 @@ header, section{
 a{
   text-decoration:none;
   font-size: 1.5em;
+  color:black;
 }
 
+a:after {
+  content: ' »';
+  opacity: 0;  
+  transition: 0.2s;
+}
+
+a:hover{
+  font-size:1.55em;
+  transition:0.2s;
+}
+
+a:hover:after {
+  opacity: 1;
+  right: 10px;
+}
 
 input{
   font-size:1.3em;
