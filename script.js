@@ -72,6 +72,32 @@ function searchDrink(){
 
   
 }
+//////////////////////////////////////////////////////////////////////////
+
+
+  
+// <header><h1>Drinks Generator</h1></header>
+//   <section> 
+//       <input type="text" name="" value="">
+// 		  <a id="searchBtn" href="#"> Search </a>
+//       <div>
+//         <a id='randomBtn' href='#'>Show me a random Cocktail</a>
+//       </div> 
+//   </section>
+
+//   <section>
+//       <h2 id='nameOfDrink'></h2>
+//       <img class='img' src=''>
+// <!--       <h3>Ingredients</h3>
+//       <ul id='ingredients'>
+//         <li id='ing1'>  </li>
+//       </ul> -->
+
+//       <h3> </h3>
+//       <p id='inst'></p>
+    
+//   </section>
+// <body>
 
 
 
