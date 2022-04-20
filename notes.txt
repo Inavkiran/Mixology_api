@@ -1,0 +1,31 @@
+looping in indgredients
+
+let obj = data.drinks[0]
+   for(let property in obj){
+     if(property.includes('strIngredient') && obj[property])
+     console.log(property + ' '+ obj[property])}
+
+
+-----------------------------------------------------------------------
+fetch api
+----------------------------------------------------------
+function randomDrink(){
+  fetch("https://www.thecocktaildb.com/api/json/v1/1/random.php")
+  .then(res => res.json())
+  .then(data => {
+    let obj = data.drinks[0]
+    
+    }) .catch(err => {console.log(`error-- ${err} `)} )}
+
+----------------------------------------------------------
+adding content to dom
+-------------------------------
+function addToDom(drinks){
+  console.log(drinks.strDrink)
+  
+  const myList = document.getElementById('content')
+  let newItem = document.createElement('h2')
+  newItem.textContent =   `${drinks.strDrink}`
+   myList.appendChild(newItem)
+ 
+}
